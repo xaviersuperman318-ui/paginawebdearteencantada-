@@ -32,7 +32,7 @@ nav{
     color: #00684f;
 }
 logo-arte{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: #333333;
 
@@ -122,10 +122,14 @@ section h2 {
 /* CUADRÍCULA */
 .producto-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-
+/*imagen*/
+imga-card{
+    width: 1254px;
+    height: 1254px;
+}
 /* TARJETA */
 .producto-card {
     background-color: white;
@@ -242,4 +246,25 @@ section h2 {
 .piel-de-pagina .grupo-1 .box  .red-sociales a:hover{
     color: #C2E5F2;
 
+}
+@media (max-width: 1000px) {
+    .contenedor {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .contenedor img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    .producto-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    section{
+        padding: 40px 30px;
+    }
 }
