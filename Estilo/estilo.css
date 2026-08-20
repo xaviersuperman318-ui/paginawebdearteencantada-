@@ -32,9 +32,9 @@ nav{
     color: #00684f;
 }
 logo-arte{
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: bold;
-    color: #333;
+    color: #333333;
 
 }
 .nav-links{
@@ -196,21 +196,50 @@ section h2 {
     transform: translateY(-5px);
     transition: 0.3s;
 }
-/*redes social*/
-.buttons a {
-  text-decoration: none;
-  font-size: 28px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  background: #314652;
-  color: #f1f1f1;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
+/*footel*/
+.piel-de-pagina{
+    width: 100%;
+    background-color: #333;
 }
+.logo-arte{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piel-de-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.piel-de-pagina .grupo-1 .box h2{
+    color: #Ffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.piel-de-pagina .grupo-1 .box p{
+    color: #Ffff;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.piel-de-pagina .grupo-1 .box  .red-sociales a{
+    display:  inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #Ffff;
+    margin-left: 10px;
+    background-color: #005f4b;
+   text-align:  center;
+    transition: all 300ms ease; 
+}
+.piel-de-pagina .grupo-1 .box  .red-sociales a:hover{
+    color: #C2E5F2;
 
-.buttons a:hover {
-  transform: scale(1.2);
 }
