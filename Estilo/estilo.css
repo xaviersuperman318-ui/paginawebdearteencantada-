@@ -75,6 +75,18 @@ logo-arte{
     text-decoration: none;
 
 }
+.red-sociales a{
+    display:  inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #Ffff;
+    margin-left: 10px;
+    background-color: #005f4b;
+   text-align:  center;
+    transition: all 300ms ease; 
+}
 .contenedor{
     display: flex;
     align-items: center;
