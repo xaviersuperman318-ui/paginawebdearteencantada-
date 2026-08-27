@@ -20,7 +20,7 @@ body{
     list-style: 1.6;
 }
 header{
-    box-shadow: 0 2px 2px ;   
+    box-shadow: 0 2px 2px ;  
 }
 nav{
     display: flex;
@@ -116,6 +116,7 @@ logo-arte{
     padding: 16px 40px;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
 }
 /* SECCIÓN DE PRODUCTOS */
 section {
@@ -265,6 +266,7 @@ imga-card{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+
 }   
 
 .testimonio{
@@ -337,9 +339,19 @@ imga-card{
     }
     .container-person{
         flex-wrap: wrap;        
-        width: 57%;
+        width: 100%;
        text-align: center;
-    }    
+    }
+    .piel-de-pagina .grupo-1{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    text-align: center;
+   }  
+   .logo-arte{
+    text-align: center;
+   }
 }
 @media (max-width: 800px) {
     .contenedor {
@@ -363,7 +375,20 @@ imga-card{
     }
     .container-person{
         flex-wrap: wrap;        
-        width: 57%;
+        width: 100%;
        text-align: center;
-    }    
+    }
+    .piel-de-pagina .grupo-1{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    text-align: center;
+   }  
+   .logo-arte{
+    text-align: center;
+   }
+   .cts-boton2{
+    align-items: center;
+   }
 }
