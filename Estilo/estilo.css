@@ -20,7 +20,10 @@ body{
     list-style: 1.6;
 }
 header{
-    box-shadow: 0 2px 2px ;  
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;  
+    background-color:  #00684f;
 }
 nav{
     display: flex;
@@ -31,12 +34,13 @@ nav{
     margin: 0 auto;
     color: #00684f;
 }
-logo-arte{
-    font-size: 50px;
-    font-weight: bold;
-    color: #333333;
+.logo-arte{
+    font-size: 21px;    
+    color: #00785f;
+    text-decoration: none;
 
-}   
+}
+
 .nav-links{
     display: flex;
     list-style: none;
