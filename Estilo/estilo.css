@@ -17,22 +17,26 @@
 
 }
 body{
-    list-style: 1.6;
+    list-style: 1.5;
 }
 header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;  
-    background-color:  #00684f;
+    background-color:#00684f;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
+    padding:  1rem;
     max-width: 1200px;
     margin: 0 auto;
     color: #00684f;
+}
+.abrir-menu,
+.cierra-menu{
+    display: none;
 }
 .logo-arte{
     font-size: 21px;    
@@ -321,7 +325,35 @@ imga-card{
     color: #8b8787;
 }
 /*Responsive*/
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
+    .abrir-menu,
+    .cierra-menu{
+        display: block;
+    }
+    .nav-links{
+        opacity: 0;
+        flex-direction: column;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+
+        gap: 2rem;
+        position: absolute;
+        top: 0;
+        flex-direction: column;
+        right: 0;
+        bottom: 0;
+        background-color: #C2E5F2;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+    }
+    .nav,
+    .visible{
+       opacity: 1;
+        visibility: visible;
+    }
+  
     .contenedor {
         flex-direction: column;
         margin: 20px;
