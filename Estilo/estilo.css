@@ -38,13 +38,21 @@ nav{
 .cierra-menu{
     display: none;
 }
-.logo-arte{
-    font-size: 21px;    
-    color: #00785f;
-    text-decoration: none;
-
+/*links a inicios*/
+.link-de-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
+.link-de-index a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+/*menu de nevagacion*/
 .nav-links{
     display: flex;
     list-style: none;
@@ -55,6 +63,7 @@ nav{
     text-decoration: none;
     color: #333;
 }
+/*portadas*/
 .inicios{
     padding-top: 2rem;
     min-height: 100vh;
@@ -83,6 +92,7 @@ nav{
     text-decoration: none;
 
 }
+/*Redes Sociales*/
 .red-sociales a{
     display:  inline-block;
     text-decoration: none;
@@ -324,9 +334,11 @@ imga-card{
     margin-top:15px;
     color: #8b8787;
 }
+/*conctaco*/
+
 /*Responsive*/
 @media (max-width: 1500px) {
-    .abrir-menu,
+    /*.abrir-menu,
     .cierra-menu{
         display: block;
     }
@@ -352,7 +364,7 @@ imga-card{
     .visible{
        opacity: 1;
         visibility: visible;
-    }
+    }*/
   
     .contenedor {
         flex-direction: column;
