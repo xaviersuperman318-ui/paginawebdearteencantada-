@@ -335,7 +335,63 @@ imga-card{
     color: #8b8787;
 }
 /*conctaco*/
-
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #222;
+}
+.container-form a i{
+    color: #005f4b;
+    margin-right:10px;
+}
+ .campo,
+  textarea{
+    width: 75%;
+    padding: 15px 10px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    outline: auto;
+ }
+ .container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 530px;
+    min-height: 530px;
+ }
+  .btn-envia{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #005f4b;
+    color: white;
+    border-radius: 3px; ;
+    cursor: pointer;
+    transition: all 300ms ease;
+ }
 /*Responsive*/
 @media (max-width: 1500px) {
     /*.abrir-menu,
