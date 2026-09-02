@@ -182,7 +182,10 @@ imga-card{
     border-radius: 8px;
     margin-bottom: 15px;
 }
-
+.card-imagen5 img{
+   width: 1385px;
+    height: 1385px;
+}
 /* NOMBRE DEL PRODUCTO */
 .producto-card h2 {
     font-size: 22px;
