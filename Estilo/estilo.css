@@ -291,7 +291,7 @@ imga-card{
 }   
 
 .testimonio{
-    width: 1000%;
+    width: 100%;
     max-width: 1200px;
     text-align: center;
     margin: auto;
@@ -317,10 +317,10 @@ imga-card{
 }
 
 .photo-perfil1{
-    background-image: url(../Imagenes/xavier.png);
+    background-image: url(../Imagenes/leones.png);
 }
 .photo-perfil2{
-    background-image: url(../Imagenes/4.jpg);
+    background-image: url(../Imagenes/nivia.jpg);
 }
 .photo-perfil3{
     background-image: url(../Imagenes/5.jpg);
