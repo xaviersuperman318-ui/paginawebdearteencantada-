@@ -1,11 +1,11 @@
 const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
-const cierrar = document.querySelector("#cierrar");
+const cierrar = document.querySelector("#cerrar");
 
 abrir.addEventListener("click", () => {
     nav.classList.add("visible");
-});
+})
 
 cierrar.addEventListener("click", () => {
     nav.classList.remove("visible");
-});
+})
