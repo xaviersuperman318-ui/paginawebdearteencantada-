@@ -321,7 +321,7 @@ imga-card{
     background-image: url(../Imagenes/nivia.jpg);
 }
 .photo-perfil3{
-    background-image: url(../Imagenes/5.jpg);
+    background-image: url(../Imagenes/PADRE.jpeg);
 }
 .testimonal h1{
     margin-top: -40px;
@@ -502,12 +502,15 @@ imga-card{
     .btn-envia {
         width: 100%;
     }
+    .logo-arte-final{
+    text-align: center;   
+    margin: auto 0;
+    }
     
 }
 @media (max-width: 800px) {
     .logo-arte-final{
     text-align: center;
-    display: block;
     margin: auto 0;
     }
     .contenedor {
